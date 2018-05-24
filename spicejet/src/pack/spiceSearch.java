@@ -25,9 +25,9 @@ FirefoxDriver driver = new FirefoxDriver();
 driver.manage().window().maximize();
 
 driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-driver.get("http://www.spicejet.com");
+//driver.get("http://www.spicejet.com");
 
-
+System.out.println("munna");
 
 
 
