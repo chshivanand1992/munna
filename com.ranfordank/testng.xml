@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<parameter name="url" value="http://srssprojects.in/home.aspx"></parameter>
+
+ <test name="Test1">
+ <parameter name="browser" value="firefox"></parameter>
+   <classes>
+        <class name="pagelibrary.com.ranfordank.TestExecution">
+      <methods>
+       <include name="verify_login()"></include>
+      </methods>
+     </class>
+   </classes>
+ </test>
+ 
+ 
+ 
+ 
+ <test name="Test2">
+ <parameter name="browser" value="chrome"></parameter>
+   <classes>
+        <class name="pagelibrary.com.ranfordank.TestExecution">
+      <methods>
+       <exclude name="verify_table()"></exclude>
+      </methods>
+     </class>
+   </classes>
+ </test>
+</suite> <!-- Suite -->
