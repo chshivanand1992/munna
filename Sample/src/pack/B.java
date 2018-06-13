@@ -9,9 +9,8 @@ public abstract  class B
 	{
 		System.out.println("m4_method");
 	}
-	B()
 	{
-		System.out.println("o_arg");
+		System.out.println("opend browser");
 	}
 	
 }
